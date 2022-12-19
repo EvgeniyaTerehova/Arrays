@@ -15,8 +15,10 @@ public class Main {
         System.out.println("задача 1");
         /**Целочисленный массив, заполненный тремя цифрами — 1, 2 и 3 — с помощью ключевого слова new.*/
         int[] apples = new int[3];
-        apples[0] = 0;
-        for (int i = 0; i < 3; i++);
+        apples[0] = 1;
+        apples[1] = 2;
+        apples[2] = 3;
+
     }
     /**Массив, в котором можно хранить три дробных числа — 1.57, 7.654, 9.986. Массив сразу заполните значениями.*/
 
@@ -35,8 +37,9 @@ public class Main {
         int[] apples = new int[]{1, 2, 3};
         apples[0] = 1;
         for (int i = 0; i < 3; i++) {
-            System.out.print(apples[i] + ", ");
+                System.out.print(apples[i]);
         }
+
         System.out.println();
 
         double[] numbers = {1.57, 7.654, 9.986};
@@ -51,6 +54,7 @@ public class Main {
             System.out.print(num[i] + ", ");
         } System.out.println();
     }
+
 
     /**Распечатайте на отдельной строчке элементы каждого массива в обратном порядке через запятую. В конце строки
     запятую ставить не надо.*/
